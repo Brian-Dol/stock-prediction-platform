@@ -1,0 +1,43 @@
+.hero-section {
+    background-image: url('/about-hero-bg.jpg'); /* Path to your background image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    color: white;
+}
+
+.hero-content {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 2rem;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.container {
+    padding: 2rem;
+}
+
+.horizontal-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap; /* To ensure it wraps on smaller screens */
+}
+
+.section {
+    width: 30%;
+    margin: 10px;
+}
+
+h2 {
+    margin-top: 1rem;
+}
+
+p {
+    margin-bottom: 1rem;
+}

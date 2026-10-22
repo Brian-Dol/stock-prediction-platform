@@ -1,0 +1,21 @@
+.hero-section {
+    background-image: url('hero-bg.jpg'); /* Corrected path reference */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.hero-content {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+.hero-section h1, .hero-section p {
+    margin-bottom: 1rem;
+}
